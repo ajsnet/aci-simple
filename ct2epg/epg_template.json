@@ -1,0 +1,38 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "fvAEPg": {
+                "attributes": {
+                    "dn": "uni/tn-MY_TENANT/ap-MY_AP/epg-MY_EPG",
+                    "name": "MY_EPG"
+                },
+                "children": [
+                    {
+                        "fvRsCons": {
+                            "attributes": {
+                                "annotation": "",
+                                "intent": "install",
+                                "prio": "unspecified",
+                                "tnVzBrCPName": "MY_CONTRACT",
+                                "userdom": ":all:"
+                            }
+                        }
+                    },
+                    {
+                        "fvRsProv": {
+                            "attributes": {
+                                "annotation": "",
+                                "intent": "install",
+                                "matchT": "AtleastOne",
+                                "prio": "unspecified",
+                                "tnVzBrCPName": "MY_CONTRACT",
+                                "userdom": ":all:"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
