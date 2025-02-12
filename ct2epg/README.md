@@ -10,10 +10,10 @@ These requirements can be easily met by nearly any linux host
 This script does not do any meaningful error checking.
 The provided EPG template will add the given contract as both Provided and Consumed.  This behavior can be changed by editing the epg_template.json file.
 # Key files
--ct2epg.sh - bash script to execute (e.g., "sh ct2epg.sh")
--epg_template.json - json template of EPG, can be customized for only Provider or Consumer
--auth.json - json file containing username/password to login to the APIC
--epglist.txt - text file, list of EPGs (one per line) to affect
+- ct2epg.sh - bash script to execute (e.g., "sh ct2epg.sh")
+- epg_template.json - json template of EPG, can be customized for only Provider or Consumer
+- auth.json - json file containing username/password to login to the APIC
+- epglist.txt - text file, list of EPGs (one per line) to affect
 # Misc (generated) files
 - /tmp/curl_cookies.txt - this is dynamically generated/updated by curl and can be ignored
 - /tmp/curl_post.json - this is dynamically generated/updated as ct2epg loops through the EPGs to affect
