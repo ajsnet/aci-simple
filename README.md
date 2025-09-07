@@ -12,7 +12,7 @@ The tools found here will generally reflect solutions I developed to solve a spe
 Current list of tools.
 
 - ct2epg - adds contracts as provided/consumed to a given list of EPGs
-- apic-stay - [in progress] keep the APIC API logged in indefinitely
+- apic-stay - keep the APIC API logged in indefinitely, unpublished as of 9/2025, contact if needed, this is a corner case
 
 # Contributions
 Please contact me at arosmith@cisco.com with comments, requests, or fixes.
